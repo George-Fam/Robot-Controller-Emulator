@@ -1,0 +1,29 @@
+package labyrinthe.instructions.saut;
+import labyrinthe.model.Labyrinthe;
+import labyrinthe.model.Tortue;
+
+/**
+ * Cette classe représente une instruction de saut simple (change le compteur ordinal).
+ */
+public class InstructionS extends InstructionSaut{
+
+    /**
+     * Constructeur de la classe labyrinthe.instructions.saut.InstructionS.
+     *
+     * @param etiquette l'étiquette de l'instruction
+     */
+    public InstructionS(int etiquette){
+        super(etiquette);
+    }
+
+    /**
+     * Cette méthode exécute l'instruction de saut simple.
+     *
+     * @param tortue l'instance de la tortue
+     * @param labyrinthe l'instance du labyrinthe
+     */
+    @Override
+    public void executer(Tortue tortue, Labyrinthe labyrinthe) {
+        faireSaut(tortue);
+    }
+}
