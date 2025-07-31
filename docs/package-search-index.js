@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"labyrinthe"},{"l":"labyrinthe.instructions"},{"l":"labyrinthe.instructions.autres"},{"l":"labyrinthe.instructions.deplacement"},{"l":"labyrinthe.instructions.ecriture"},{"l":"labyrinthe.instructions.saut"},{"l":"labyrinthe.io"},{"l":"labyrinthe.model"}];updateSearchResults();
